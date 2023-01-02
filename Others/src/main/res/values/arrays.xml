@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="mirrorMode">
+        <item>OnlyPreview</item>
+        <item>OnlyPublish</item>
+        <item>Both</item>
+        <item>None</item>
+    </string-array>
+    <string-array name="viewMode">
+        <item>AspectFit</item>
+        <item>AspectFill</item>
+        <item>ScaleToFill</item>
+    </string-array>
+    <string-array name="orientation">
+        <item>Fixed Portrait</item>
+        <item>Fixed Landscape</item>
+        <item>Auto</item>
+    </string-array>
+    <string-array name="cameraSelection">
+        <item>Front</item>
+        <item>Back</item>
+    </string-array>
+    <string-array name="focusMode">
+        <item>ContinuousAuto</item>
+        <item>Auto</item>
+    </string-array>
+    <string-array name="exposureMode">
+        <item>ContinuousAuto</item>
+        <item>Auto</item>
+    </string-array>
+    <string-array name="mainVideoSources">
+        <item>@string/video_source_none</item>
+        <item>@string/video_source_camera</item>
+        <item>@string/video_source_screen_sharing</item>
+        <item>@string/video_source_custom_capture_raw_data</item>
+        <item>@string/video_source_custom_capture_gl_texture_2d</item>
+        <item>@string/video_source_custom_capture_encoded_data</item>
+        <item>@string/video_source_custom_capture_image_raw_data</item>
+        <item>@string/video_source_custom_capture_image_gl_texture_2d</item>
+        <item>@string/video_source_custom_capture_image_encoded_data</item>
+    </string-array>
+    <string-array name="auxVideoSources">
+        <item>@string/video_source_none</item>
+        <item>@string/video_source_camera</item>
+        <item>@string/video_source_media_player</item>
+        <item>@string/video_source_media_player_using_network_resource</item>
+        <item>@string/video_source_screen_sharing</item>
+        <item>@string/video_source_main_publish_channel</item>
+        <item>@string/video_source_custom_capture_raw_data</item>
+        <item>@string/video_source_custom_capture_gl_texture_2d</item>
+        <item>@string/video_source_custom_capture_encoded_data</item>
+        <item>@string/video_source_custom_capture_image_raw_data</item>
+        <item>@string/video_source_custom_capture_image_gl_texture_2d</item>
+        <item>@string/video_source_custom_capture_image_encoded_data</item>
+    </string-array>
+    <string-array name="mainAudioSources">
+        <item>@string/audio_source_none</item>
+        <item>@string/audio_source_microphone</item>
+        <item>@string/audio_source_custom_capture_pcm</item>
+        <item>@string/audio_source_custom_capture_file_pcm</item>
+        <item>@string/audio_source_custom_capture_file_aac</item>
+    </string-array>
+    <string-array name="auxAudioSources">
+        <item>@string/audio_source_none</item>
+        <item>@string/audio_source_media_player</item>
+        <item>@string/audio_source_main_publish_channel</item>
+        <item>@string/audio_source_custom_capture_pcm</item>
+        <item>@string/audio_source_custom_capture_file_pcm</item>
+        <item>@string/audio_source_custom_capture_file_aac</item>
+    </string-array>
+</resources>

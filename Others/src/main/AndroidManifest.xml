@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.others">
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <application>
+        <activity android:name=".screensharing.ScreenSharingActivity" android:exported="false"></activity>
+        <activity android:name=".sei.SEIActivity" />
+        <activity android:name=".security.SecurityActivity" />
+        <activity android:name=".networkandperformance.NetworkAndPerformanceActivity" />
+        <activity android:name=".flowcontrol.FlowControlActivity" />
+        <activity android:name=".multiplerooms.MultipleRoomsActivity" />
+        <activity android:name=".camera.CameraActivity" />
+        <activity android:name=".mediaplayer.UI.MediaPlayerActivity" />
+        <activity android:name=".mediaplayer.UI.MediaPlayerSelectionActivity" />
+        <activity android:name=".recording.RecordingActivity" />
+        <activity android:name=".beautyandwatermarkandsnapshot.BeautyWatermarkSnapshotActivity" />
+        <activity android:name=".effectsbeauty.EffectsBeautyActivity" />
+        <activity android:name=".streammixing.AutoMixerStartActivity"/>
+        <activity android:name=".superresolution.SuperResolutionActivity"/>
+        <activity android:name=".multivideosource.MultiVideoSourceActivity" />
+
+        <activity
+            android:name="im.zego.internal.screencapture.ZegoScreenCaptureManager$ZegoScreenCaptureAssistantActivity"
+            android:exported="false"
+            android:configChanges="screenSize|orientation"
+            android:screenOrientation="fullUser"
+            android:theme="@android:style/Theme.Translucent" />
+        <service
+            android:name="im.zego.internal.screencapture.ZegoScreenCaptureService"
+            android:enabled="true"
+            android:exported="false"
+            android:foregroundServiceType="mediaProjection">
+            <intent-filter>
+                <action android:name="android.intent.action.screenshare" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>
